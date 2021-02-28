@@ -1,0 +1,5 @@
+enum StencilType
+{
+    Laplacian
+
+};
