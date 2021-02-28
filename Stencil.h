@@ -13,6 +13,7 @@ class Stencil
     System Sys;
     public:
         Stencil(StencilType Type, System sys);
+        void Solve();
     private:
         void MatrixAllocationReserving();
         void Generate();
